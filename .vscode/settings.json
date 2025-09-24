@@ -1,0 +1,29 @@
+{
+  "latex-workshop.latexmk.path": "/Library/TeX/texbin/latexmk",
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk",
+      "command": "/Library/TeX/texbin/latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "-pdflatex=/Library/TeX/texbin/pdflatex",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    { "name": "latexmk (TeX Live)", "tools": ["latexmk"] }
+  ],
+  "latex-workshop.latex.outDir": "build",
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.env": {
+    "PATH": "/Library/TeX/texbin:${env:PATH}"
+  },
+  "terminal.integrated.env.osx": {
+    "PATH": "/Library/TeX/texbin:${env:PATH}"
+  }
+}
