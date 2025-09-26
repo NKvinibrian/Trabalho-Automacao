@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.23)  23 SEP 2025 22:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.23)  25 SEP 2025 21:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -91,25 +91,52 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (build/main.aux)
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+[2]
+Overfull \hbox (4.29684pt too wide) in paragraph at lines 64--65
+\OT1/cmr/m/n/10 es-ta-b-ele-cer, in-ter-romper e con-duzir cor-rentes em suas condi^^Xc~oes nor-mais. Quando
+ []
+
+
+
+[3]
+Overfull \hbox (1.02612pt too wide) in paragraph at lines 74--75
+[]\OT1/cmr/m/n/10 O con-t-role da ve-loci-dade nos mo-tores CC po-dem ser feitas de v^^Sarias maneiras:
+ []
+
+
+
+[4]
+Overfull \hbox (2.61182pt too wide) in paragraph at lines 102--103
+\OT1/cmr/m/n/10 o CLP), mem^^Soria do usu^^Sario (tipo RAM), mem^^Soria de da-dos (vari^^Saveis), mem^^Soria
+ []
+
+
+
+[5]
+
+[6]
+
+[7] (build/main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1299 strings out of 473190
- 21315 string characters out of 5715800
- 410608 words of memory out of 5000000
- 24588 multiletter control sequences out of 15000+600000
- 562477 words of font info for 48 fonts, out of 8000000 for 9000
+ 1308 strings out of 473190
+ 21395 string characters out of 5715800
+ 418608 words of memory out of 5000000
+ 24597 multiletter control sequences out of 15000+600000
+ 562784 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,226b,206s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,6n,65p,1336b,206s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on build/main.pdf (1 page, 51202 bytes).
+Output written on build/main.pdf (7 pages, 79511 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 48 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
