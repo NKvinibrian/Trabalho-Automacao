@@ -111,20 +111,37 @@ Diagrama de Contatos (ladder): A linguagem mais usada para os CLP. É muito simi
 
  
 
-O diagrama de contatos possui vários símbolos e elementos, como pode ser visto na figura 1. As entradas são representadas por contatos, que podem ser abertos, que atuam normalmente, e fechados (que são os negados), similares a uma porta lógica NOT. As saídas são representadas por uma bobina, que também pode estar negada.
+O diagrama de contatos possui vários símbolos e elementos, como pode ser visto na Figura ~\ref{fig:elementos}. As entradas são representadas por contatos, que podem ser abertos, que atuam normalmente, e fechados (que são os negados), similares a uma porta lógica NOT. As saídas são representadas por uma bobina, que também pode estar negada.
 
-% Aqui Figura 1.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{imagens/elemdiagcont.png}
+    \caption{ELEMENTOS DO DIAGRAMA DE CONTATOS}
+    \label{fig:elementos}
+\end{figure}
 
-As funções lógicas booleanas podem ser replicadas aplicando uma sequência de entradas pelo diagrama de contatos. Uma porta NOT é replicada posicionando um contato fechado e uma bobina. Uma porta OR É feita posicionando dois diagramas de contato aberto paralelos, ligados a uma bobina. A porta AND pode ser replicada posicionando dois diagramas de contato abertos em série, seguidos por uma bobina. Na figura 2, as representações podem ser observadas.
+As funções lógicas booleanas podem ser replicadas aplicando uma sequência de entradas pelo diagrama de contatos. Uma porta NOT é replicada posicionando um contato fechado e uma bobina. Uma porta OR É feita posicionando dois diagramas de contato aberto paralelos, ligados a uma bobina. A porta AND pode ser replicada posicionando dois diagramas de contato abertos em série, seguidos por uma bobina. Na figura ~\ref{fig:equivalencia}, as representações podem ser observadas.
 
 
-% Aqui Figura 2.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{imagens/equivalportlogic.png}
+    \caption{EQUIVALÊNCIA DAS PORTAS LÓGICAS EM LADDER}
+    \label{fig:equivalencia}
+\end{figure}
 
 Outras funções existem para o diagrama de contatos. A função set é utilizada para manter uma bobina acessa após ter sido acionada, mesmo que o sinal não seja mais captado. Funciona como uma alavanca, enquanto normalmente funciona como um botão pressionado. A função reset serve para desacionar uma bobina que estava acessa pela função set. É como desligar a alavanca acionada previamente. Essas funções podem ser vistas na figura 3, em sua representação ladder.  
 
-Um temporizador pode ser utilizado para acionar ou desligar uma saída de acordo com um tempo previamente programado. Pode então ser usada para acionar algo após um tempo do acionamento, ou desligá-lo após um tempo. Um contador serve para ativar uma saída após um certo número de ocorrências de algo, de acordo com sua programação. Pode ser usado então para ativar algo após um sinal ter sido captado um certo número de vezes. Estas funções também podem ser vistas na figura 3, em sua representação ladder.
+Um temporizador pode ser utilizado para acionar ou desligar uma saída de acordo com um tempo previamente programado. Pode então ser usada para acionar algo após um tempo do acionamento, ou desligá-lo após um tempo. Um contador serve para ativar uma saída após um certo número de ocorrências de algo, de acordo com sua programação. Pode ser usado então para ativar algo após um sinal ter sido captado um certo número de vezes. Estas funções também podem ser vistas na figura ~\ref{fig:funcoes}, em sua representação ladder.
 
-% Aqui Figura 3.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{imagens/funcextras.png}
+    \caption{OUTRAS FUNÇÕES EM LADDER}
+    \label{fig:funcoes}
+\end{figure}
+
+
 \section{Exemplo prático}
 Aqui Exemplo prático
 
